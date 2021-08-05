@@ -1,0 +1,7 @@
+1. Write a program that prints ‘Hello World’ to the screen.
+2. Write a program that asks the user for their name and greets them with their name.
+3. Modify the previous program such that only the users Alice and Bob are greeted with their names.
+4. Write a function that returns the largest element in a list.
+5. Write function that reverses a list, preferably in place.
+6. Write a function that checks whether an element occurs in a list.
+7. Write a function that returns the elements on odd positions in a list.
