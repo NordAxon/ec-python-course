@@ -1,7 +1,8 @@
 
 def string_comparison_method(first_string: str, second_string: str) -> str:
-    """ This is a string that explains what the method does. It is called docstring.
-    In this method we compare two strings to see if the content is the same
+    """ This is a string that explains what the method does. It is called 
+    docstring. In this method we compare two strings to see if the content is 
+    the same
     """
     try:
         if first_string.lower() == second_string.lower():
