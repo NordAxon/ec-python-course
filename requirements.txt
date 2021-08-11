@@ -1,0 +1,3 @@
+argparse=3.9
+numpy
+matplotlib

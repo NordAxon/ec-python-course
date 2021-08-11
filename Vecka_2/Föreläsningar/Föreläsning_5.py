@@ -20,7 +20,7 @@ def change_name_representation(first_name: str, surname: str, all_capital: bool)
 
 
 if __name__ == "__main__":
-    # Sometimes we wish to take the user input also through the terminal. 
+    # Sometimes we wish to take the user input also through the terminal.
     # A useful library for doing this easily is argparse.
     parser = argparse.ArgumentParser(description='Process some integers.')
     parser.add_argument('--first-name', help='Enter your first name please', required=True)
