@@ -3,6 +3,7 @@ import argparse # <---- imports are always at the top, for easy management
 
 def change_name_representation(first_name: str, surname: str, all_capital: bool) -> tuple:
     """In this method the input strings are capitalized and printed
+    This is called a docstring
 
     Args:
         first_name (str): first name to be capitalized

@@ -11,3 +11,5 @@
 *********
 Use adequate numpy functions to achieve this in efficient code.
 12. Write a program, consisting of one main .py file and one help file. Let a user enter a string upon starting the program. Use help functions from your help file to convert the string to pig latin.
+13. plot norm_dist data
+14. split into train-test-val on sample dataset, use pathlib
