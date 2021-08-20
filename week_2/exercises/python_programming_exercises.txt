@@ -11,5 +11,25 @@
 *********
 Use adequate numpy functions to achieve this in efficient code.
 12. Write a program, consisting of one main .py file and one help file. Let a user enter a string upon starting the program. Use help functions from your help file to convert the string to pig latin.
-13. plot norm_dist data
-14. split into train-test-val on sample dataset, use pathlib
+13. Do the first 9 exercises found on https://www.machinelearningplus.com/python/101-numpy-exercises-python/
+14. Plot the values of norm_dist data. When you have done that, plot a frequency histogram of the data. Use whichever plotting library you wish.
+15. In the folder "sample_dataset" you will find a dataset of x-ray images divided into three classes. Use pathlib and shutil to split this dataset into the sets training, validation and test set.
+The folder structure will be the following after splitting:
+|---sample_dataset
+|---|---train
+|---|---|---covid
+|---|---|---|---covid_image_1.jpg
+|---|---|---|---covid_image_2.jpg
+|---|---|---|--- etc.
+|---|---|---pneumonia
+|---|---|---normal
+|---|---test
+|---|---|---covid
+|---|---|---pneumonia
+|---|---|---normal
+|---|---val
+|---|---|---covid
+|---|---|---pneumonia
+|---|---|---normal
+The training set should consist of 80% of the images, the test and validation set will consist of 10% of the images each. No images may be overlapping in the folders!
+
