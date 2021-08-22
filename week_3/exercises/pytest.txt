@@ -1,0 +1,8 @@
+Skriv ett antal pytests som ska testa din OOP implementation från början av veckan 
+som handlade om klasserna Student, Instructor, Member och Workshop.
+
+Tester att utföra:
+- Testa att skapa en instans av en Student. Låt testet testa att instansen är av typen Member
+- Använd metoden add_skill() i Instructor. Testa att den skill du lagt till nu finns i attributet skills
+- Skapa en workshop och använd metoden add_participant(). Testa att den person du la till nu finns i din workshop 
+- Skapa en Workshop med minst en Student och minst en Instructor. Testa att din workshop innehåller Members som är både Students och Instructors

@@ -1,0 +1,10 @@
+Pandas lärs enklast genom att använda det. Övningarna finns i ett github repo som vi listar härunder.
+I början kan det vara lite svårt att veta hur man ska ta sig an det, men föreslår att ni har pandas-dokumentationen uppe samtidigt.
+
+- https://pandas.pydata.org/pandas-docs/stable/
+- https://github.com/guipsamora/pandas_exercises
+
+Förutom dokumentationen kan ni ha Python Data Science Handbook som stöd. 
+Notera att den är skriven för några år sedan och att vissa saker är utdaterade, till exempel användning av df.ix .
+
+Repot innehåller väldigt många övningar. Ni bör göra de som ligger i 01 och 02 men fortsätt gärna, att bemästra pandas är ovärdeligt!
