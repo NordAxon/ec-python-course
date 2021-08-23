@@ -1,0 +1,6 @@
+Läs och gör de övningar som finns här:
+- https://python-textbok.readthedocs.io/en/1.0/Classes.html
+- https://python-textbok.readthedocs.io/en/1.0/Classes.html
+
+Gör programmeringsövningen i OOP:
+- https://github.com/nrorabaugh/python-oop-exercise
