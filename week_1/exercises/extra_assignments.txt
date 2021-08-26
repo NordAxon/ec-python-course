@@ -1,0 +1,105 @@
+------------------------------ EXTRAUPPGIFT 1 -----------------------------------------------------------
+An extra day is added to the calendar almost every four years as February 29, and the day is called a leap day. 
+It corrects the calendar for the fact that our planet takes approximately 365.25 days to orbit the sun. A leap year contains a leap day.
+
+In the Gregorian calendar, three conditions are used to identify leap years:
+
+The year can be evenly divided by 4, is a leap year, unless:
+The year can be evenly divided by 100, it is NOT a leap year, unless:
+The year is also evenly divisible by 400. Then it is a leap year.
+This means that in the Gregorian calendar, the years 2000 and 2400 are leap years, while 1800, 1900, 2100, 2200, 2300 and 2500 are NOT leap years.
+Read more here: https://www.timeanddate.com/date/leapyear.html
+
+--- Task ---
+
+Given a year, determine whether it is a leap year. If it is a leap year, return the Boolean True, otherwise return False.
+
+
+--- Input ---
+
+The year to test.
+
+--- Constraints ---
+The year may be between 1900 and 10^5, i.e.
+
+ 1900 <= year <= 10^5
+
+--- Output ---
+
+The function must return a Boolean value (True/False). Output is handled by the provided code stub.
+
+--- Example ---
+Input = 1990 -> Output = False
+
+Explanation: 1990 is not a multiple of 4, hence it's not a leap year.
+
+
+
+
+
+
+------------------------------ EXTRAUPPGIFT 2 -----------------------------------------------------------
+Given the names and grades for each student in a class of  students, store them in a nested list and print 
+the name(s) of any student(s) having the second lowest grade.
+
+Note: If there are multiple students with the second lowest grade, order their names alphabetically and print each name on a new line.
+
+--- Example ---
+records = [["chi", 20.0], ["beta", 50.0], ["alpha", 50.0]]
+
+The ordered list of scores is [20.0, 50.0], so the second lowest score is [50.0]. 
+There are two students with that score: ["beta", "alpha"]. Ordered alphabetically, the names are printed as:
+
+alpha
+beta
+
+--- Input Format ---
+
+The first line contains an integer, N, the number of students.
+The 2N subsequent lines describe each student over 2 lines.
+- The first line contains a student's name.
+- The second line contains their grade.
+
+--- Constraints ---
+The number of students will be between 2 and 5, i.e.
+
+2 <= N <= 5
+
+There will always be one or more students having the second lowest grade.
+
+--- Output Format ---
+
+Print the name(s) of any student(s) having the second lowest grade in. If there are multiple students, 
+order their names alphabetically and print each one on a new line.
+
+--- Example  ---
+
+Input:
+
+5
+Harry
+37.21
+Berry
+37.21
+Tina
+37.2
+Akriti
+41
+Harsh
+39
+
+Gives the output: 
+
+Berry
+Harry
+
+Explanation:
+
+There are 5 students in this class whose names and grades are assembled to build the following list:
+
+python students = [['Harry', 37.21], ['Berry', 37.21], ['Tina', 37.2], ['Akriti', 41], ['Harsh', 39]]
+
+The lowest grade of  belongs to Tina. The second lowest grade of  belongs to both Harry and Berry, so we order 
+their names alphabetically and print each name on a new line. There are  distinct words. Here, "bcdef" appears
+twice in the input at the first and last positions. The other words appear once each. The order of the first 
+appearances are "bcdef", "abcdefg" and "bcde" which corresponds to the output.
