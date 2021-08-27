@@ -33,3 +33,4 @@ The folder structure will be the following after splitting:
 |---|---|---normal
 The training set should consist of 80% of the images, the test and validation set will consist of 10% of the images each. No images may be overlapping in the folders!
 
+
