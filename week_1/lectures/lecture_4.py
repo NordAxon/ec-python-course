@@ -26,3 +26,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+    send()
+
+def send():
+    print("yellow")
