@@ -9,7 +9,7 @@
 * a     *
 * frame *
 *********
-Use adequate numpy functions to achieve this in efficient code.
+Use f-strings to achieve this in efficient code.
 12. Write a program, consisting of one main .py file and one help file. Let a user enter a string upon starting the program. Use help functions from your help file to convert the string to pig latin.
 13. Do the first 9 exercises found on https://www.machinelearningplus.com/python/101-numpy-exercises-python/
 14. Plot the values found in the file called norm_dist.txt data. When you have done that, plot a frequency histogram of the data. Use whichever plotting library you wish.
