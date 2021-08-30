@@ -1,8 +1,8 @@
 
 def pair_with_age(first_name, last_name):
-    #öppnar en fil
-    #läser från filen
-    # returnerar 
+    # öppnar en fil
+    # läser från filen
+    # returnerar
     return 26
 
 def change_name_representation(first_name: str, surname: str, all_capital: bool) -> tuple:
@@ -20,6 +20,6 @@ def change_name_representation(first_name: str, surname: str, all_capital: bool)
         first_name = first_name.capitalize()
         surname = surname.capitalize()
         print(first_name, surname)
-    
+
 
     return first_name, surname
