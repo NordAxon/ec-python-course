@@ -2,5 +2,17 @@ Läs och gör de övningar som finns här:
 - https://python-textbok.readthedocs.io/en/1.0/Classes.html
 - https://python-textbok.readthedocs.io/en/1.0/Classes.html
 
+Övningar:
+1. Skriv en klass Vechicle med specifikation:
+    - initializer ska ta argument: nbr_wheels, color och weight
+    - attribut: nbr_wheels, color och weight
+    - metoder: change_color(), print_description()
+
+2. Skriv en klass Car som ärver från Vehicle
+    - initializer ska ta argument: color, weight och model
+    - extra attibut: model
+    - Låt din klass Car skugga/override Vehicle.print_description()
+
+
 Gör programmeringsövningen i OOP:
 - https://github.com/nrorabaugh/python-oop-exercise
