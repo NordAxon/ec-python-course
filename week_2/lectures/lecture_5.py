@@ -18,4 +18,4 @@ if __name__ == "__main__":
     print(args.first_name, args.surname, args.all_capital)
 
     main(args.first_name, args.surname, args.all_capital)
-    
+
