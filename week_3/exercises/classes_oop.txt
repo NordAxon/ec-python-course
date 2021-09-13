@@ -1,6 +1,6 @@
 Läs och gör de övningar som finns här:
 - https://python-textbok.readthedocs.io/en/1.0/Classes.html
-- https://python-textbok.readthedocs.io/en/1.0/Classes.html
+- https://python-textbok.readthedocs.io/en/1.0/Object_Oriented_Programming.html
 
 Övningar:
 1. Skriv en klass Vechicle med specifikation:
