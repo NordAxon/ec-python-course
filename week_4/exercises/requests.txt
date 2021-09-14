@@ -1,0 +1,9 @@
+1. Gör en get request till 'https://www.google.com'. Printa statuskoden
+
+2. Kör igång app.py (ligger i week_4/exercises). Använd get, post, put och delete på 'http://localhost:8080/users' för att se och modifiera de användare som finns på servern
+    - POST och PUT-metoderna kräver att den data du skickar innehåller värden för 'user_id' och 'name' 
+    - DELETE kräver bara 'user_id'
+
+3. Gör en get request till 'https://www.erikliljeroth.se/api/alldata' . 
+    a) Ta vara på datan som skickades tillbaka och gör om den till en pandas dataframe. TIPS: pandas klarar detta med bara en rad kod
+    b) Baserat på datan, skapa en plot över innehållet för Augusti månad
