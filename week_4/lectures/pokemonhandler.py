@@ -1,51 +1,55 @@
 import pandas as pd
 from argparse import ArgumentParser
 import seaborn as sns
+import matplotlib.pyplot as plt
+from pathlib import Path
 
 class PokemonHandler:
 
-    def __init__(self, pokemon1, pokemon2):
-        # Attribute
-        self.df = pd.read_csv('C:\Users\AlexanderHagelborn\code\ec-python-course\week_3\lectures\Pokemon.csv')
-        self.pokemon1 = pokemon1
-        self.pokemon2 = pokemon2
+    def __init__(self):
+        p = Path(__file__).resolve().parents[2] / 'week_3\lectures\Pokemon.csv'
+        self.df = pd.read_csv(p)
 
-        # Method call
         self._preprocess()
 
     def _preprocess(self):
-        """In this function we want to do any processing necessary for the dataframe to look like we want it to"""
-        
-        # We want to drop the Legendary row because we don't want it
-        raise NotImplementedError
+        " Removes unneccessary columns"
+        self.df = self.df[['Name', 'Attack', 'HP', 'Speed', 'Defense']]
 
-    def _get_pokemon(self):
-        "Return a dataframe with only pokemon1 and pokemon 2"
+    def _print_stats(self, pokemon):
+        pokemon = self.df[self.df['Name'] == pokemon]
+        print(pokemon)
 
-        raise NotImplementedError
 
-    def _print_stats(self):
-        " Print the HP, Attack, Defense, Special Attack, Special Defense and Speed of a pokemon"
-        raise NotImplementedError
+    def compare(self, pokemon1, pokemon2):
 
-    def visualize(self):
-        "PLot a barplot comparing the pokemon"
-        raise NotImplementedError
+        # Check valid pokemon namespace
+        names = self.df['Name'].values
+        if pokemon1 in names and pokemon2 in names:
+            self._print_stats(pokemon1)
+            self._print_stats(pokemon2)
+        else:
+            print('Did not find both pokemon in the data')
+            return
 
-    
-    def compare(self):
-        "Do all comparisons"
-        raise NotImplementedError
-        
+    def visualize(self, pokemon1, pokemon2):
+
+        pokemon_rows = self.df[self.df['Name'].isin([pokemon1, pokemon2])]
+        melt = pokemon_rows.melt(id_vars='Name')
+
+        plt.figure()
+        sns.barplot(x='variable', y = 'value', hue='Name' ,data=melt)
+        plt.show()
 
 
 def pokemon_program(pokemon1, pokemon2, visualize):
 
-    pokemon_handler = PokemonHandler(pokemon1, pokemon2)
-    pokemon_handler.compare(visualize)
+    pokemon_handler = PokemonHandler()
+    pokemon_handler.compare(pokemon1, pokemon2)
 
     if visualize:
-        pokemon_handler.visualize()
+        pokemon_handler.visualize(pokemon1, pokemon2)
+
 
 
 if __name__ == '__main__':
@@ -57,8 +61,8 @@ if __name__ == '__main__':
     parser.add_argument('--visualize', action='store_true', required=False, default=False)
 
     args = parser.parse_args()
-
     pokemon_program(args.pokemon1, args.pokemon2, args.visualize)
+
 
 
 
