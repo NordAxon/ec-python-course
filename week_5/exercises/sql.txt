@@ -1,0 +1,9 @@
+Uppgifter:
+
+Det finns en databas som heter hr.db 
+
+1. Öppna databasen i VScode och titta på den table som finns. Vad finns för kolumner och värden? 
+2. Skriv en query som hämtar alla förnamn och efternamn från databasen
+3. Ta bort alla personer i databasen som började jobba där innan Augusti 1987
+4. Uppdatera förnamnet på alla David till Dave
+5. Idag börjar en ny programmerare (IT_PROG) som heter Jean Michelle. Lägg till Jean Michelle i databasen (hitta på värden för alla kolumner)
