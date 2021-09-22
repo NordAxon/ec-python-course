@@ -1,6 +1,6 @@
 ### 
 
-Ni ska använda pandas, sqlite och matplotlib tillsammans för att utföra dessa uppgifter
+Ni ska använda pandas, sqlite och matplotlib/seaborn tillsammans för att utföra dessa uppgifter
 
 Det finns en databas som heter weather.db med väderdata från London mellan 1957-2010. Öppna den och utforska vad det finns för tabell/tabeller och kolumner
 varje uppgift kommer att vara att visualisera en viss sorts data och ni ska göra det genom att skapa en liten pandas dataframe
