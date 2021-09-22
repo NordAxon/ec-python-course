@@ -1,0 +1,26 @@
+### 
+
+Ni ska använda pandas, sqlite och matplotlib tillsammans för att utföra dessa uppgifter
+
+Det finns en databas som heter weather.db med väderdata från London mellan 1957-2010. Öppna den och utforska vad det finns för tabell/tabeller och kolumner
+varje uppgift kommer att vara att visualisera en viss sorts data och ni ska göra det genom att skapa en liten pandas dataframe
+
+För att göra uppgifterna: 
+1. Skapa en dataframe genom att göra en SQL query till databasen med pd.read_sql
+
+Uppgift 1:
+Gör en lineplot som visar mängden regn över hela tidsspannet
+
+Uppgift 2:
+Skapa två lineplots, en för 1960 och en för 2005, som visar hur mycket det regnat varje månad
+Räkna också ut totalmängden regn för dessa två år
+
+Uppgift 3:
+Vilket år var det mest sol i juli (månad 7)?
+
+Uppgift 4:
+Skapa en barplot som visar medelvärdet av Tmax (högsta temperaturen) varje månad under 1980-talet
+
+Uppgift 5:
+Under hur många jular tror vi att det fanns snö i London? 
+(Man kan t.ex. anta att om Tmin var under -10 i December så var det kallt nog för att det ska ha snöat någon gång under julen)
