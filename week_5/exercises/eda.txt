@@ -1,0 +1,18 @@
+Försök att göra en eda på ett dataset. 
+Ni kan registrera er på kaggle för att hitta något ni tycker verkar intressant, eller så kan ni använda er av data1.csv, data2.csv, data3.csv eller data4.csv här i repot.
+
+
+Kom ihåg de tre stegen:
+1. Förstå data
+- Vad finns i de olika kolumnerna? 
+- Hur stort är datasetet?
+
+2. Data cleaning
+- Ta bort eller ersätt nullvärden
+- Ta bort kolumnen ni inte tycker är relevanta
+
+3. Analysera datat
+Vad man kan göra här(det behöver inte vara exakt det jag gjorde på föreläsningen):
+- Visualisera förhållanden i data (t.ex. korrelation, relplot)
+- Visualisera distribution av data(Barplot av kategoriska värden, histplot av numeriska)
+- etc... :)
